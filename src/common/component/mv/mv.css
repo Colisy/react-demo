@@ -1,0 +1,37 @@
+.ul-out{
+  height:5rem;
+}
+.re-lists li .ui.card{
+  border-radius: 0;
+  margin:0;
+  width:100%;
+  height: 100%;
+  box-shadow: none;
+}
+.re-lists li{
+  width: 46%;
+  height: 4rem !important;
+  display: inline-block;
+  height: 100%;
+  margin-left:2.5%;
+}
+.re-lists li .ui.card>:first-child{
+  border-radius: 0 !important;
+  height: 75%;
+  width: 100%;
+}
+.re-lists li .ui.card>.content{
+  font-size: 0.2rem;
+  text-align: left;
+  padding:1em 0.1rem;
+}
+.re-lists li .ui.card>.content>.header:not(.ui){
+  font-weight: normal;
+}
+
+
+
+
+
+
+/**/

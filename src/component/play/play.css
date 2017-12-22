@@ -1,0 +1,170 @@
+.re-play{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 0.01px;
+}
+/*遮罩*/
+.re-mark{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  z-index:2;
+  background-color: rgba(0,0,0,0.76);
+}
+/*背景*/
+.re-bg{
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  bottom:0;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom center;
+}
+/*内容*/
+.re-page{
+  position: relative;
+  z-index:3;
+}
+.re-page header{
+  height:2rem;
+  background-color: rgba(0,0,0,.1);
+}
+.re-page header img:first-of-type{
+  width:1.6rem;
+  height: 1.6rem;
+  margin:0.15rem;
+  float: left;
+}
+.re-page header>div{
+  float: left;
+  color:#fff;
+  padding-top: 0.5rem;
+  margin-left: 0.1rem;
+}
+.re-page header>div p{
+  width:4rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.re-page header>div p:first-of-type{
+  font-size: 0.36rem;
+}
+.re-page header>div p:last-of-type{
+  font-size: 0.3rem;
+}
+/*play、pause*/
+.re-play-icon{
+  position: absolute;
+  top:0.4rem;
+  color:rgba(255,255,255,0.4);
+}
+/*隐藏滚动条*/
+::-webkit-scrollbar {display:none}
+.re-lyric{
+  position: relative;
+  z-index:3;
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  height: 55vh;
+  margin-top: 5vh;
+  overflow: scroll;
+  color:rgba(255, 255, 255, 0.5);
+  font-size: 0.33rem;
+  font-weight: bold;
+  line-height: 0.75rem;
+}
+.re_p{
+  position: relative;
+  width: 100%;
+  height: 0.5rem;
+  z-index:1;
+}
+.p-h{
+  position: absolute;
+  left:0.5rem;
+  color:rgba(255, 255, 255, 0.6);
+}
+.p-up{
+  position: absolute;
+  right:0.1rem;
+  color:rgba(255, 255, 255, 0.6);
+}
+/*控制条*/
+.re-pro{
+  width: 100%;
+  height: 1rem;
+  color:rgba(255, 255, 255, 0.6);
+  padding:0.3rem 0.5rem;
+  margin-top: 0.3rem;
+}
+.re-pro .ui.progress,.re-pro .ui.progress .bar{
+  padding: 0;
+  margin:0;
+  height:2px;
+  line-height: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.re-pro>div{
+  display: inline-block;
+  width:70%;
+  margin:0 3%;
+  height: 2px;
+  background-color: red;
+  position: relative;
+  top:0.17rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.re-pro .ui.progress .bar{
+  background-color: #ff5045;
+  min-width: 0;
+}
+.re-pro .ui.progress{
+  width: 100%;
+}
+/*下载*/
+.re-download{
+  height:0.9rem !important;
+  font-size: 0.38rem !important;
+  text-align: center !important;
+  font-weight: normal !important;
+  padding-top: 0.6em !important;
+  position: fixed;
+  bottom:0.5rem;
+  width: 70%;
+  left:50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  color:#fff !important;
+  background-color: #31C27C !important;
+}
+.re-download>img{
+  width: 0.7rem;
+  height:0.7rem;
+  position: absolute;
+  left:0.1rem;
+  top:0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

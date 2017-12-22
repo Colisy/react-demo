@@ -1,0 +1,50 @@
+.re-tab .ui.secondary.pointing.menu .item,.re-tab .ui.segment{
+  padding:0 !important;
+  margin:0 !important;
+  font-size: 0.36rem;
+}
+.re-tab .ui.menu{
+  min-height:0.8rem;
+  height: 0.8rem;
+  display: flex;
+  margin:0;
+}
+.re-tab .ui.secondary.pointing.menu .item{
+  flex:1;
+  text-align: center;
+  height: 100%;
+  line-height: 0.8rem;
+  display: inline-block;
+  color:rgba(0,0,0,0.7);
+}
+.re-tab .ui.secondary.pointing.menu .active.item{
+  color:#31c27c;
+  border-color:#31c27c;
+  font-weight: normal;
+}
+.re-tab .ui.secondary.pointing.menu{
+  border:0;
+}
+
+.re-tab .ui.segment{
+  border:0;
+  box-shadow: none;
+  background-color: #f4f4f4;
+  border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

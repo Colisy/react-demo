@@ -1,0 +1,146 @@
+.re_song{
+  background-color: #fff;
+}
+.re_song>li{
+  height: 1rem;
+}
+.re_song>li>a{
+  color:#333;
+}
+.re_song>li>a>div>.two{
+  text-align: center;
+  font-size: 0.5rem;
+}
+.re_song>li .ui.grid,.re_song>li>a>div .twelve,.re_song>li>a>div>.two,.re_song>li>a>div .twelve .ui.segment,.re_song>li>a>div>.two .ui.segment{
+    height: 100% !important;
+    background-color: #fff;
+    margin:0;
+    padding:0!important;
+}
+.re_song>li>a>div>.two .ui.segment{
+  line-height: 1rem;
+}
+.re_song>li>a>div .twelve .ui.segment{
+  padding-top: 0.2rem !important;
+}
+/*上面部分*/
+.re-s-out{
+  height: 5rem;
+  position: relative;
+}
+/*背景*/
+.re-dark{
+  background:#fff url('../../../assets/a.jpg') no-repeat bottom center;
+  background-size: cover;
+  z-index:1;
+  /**模糊
+  filter:blur() css滤镜 实现一种玻璃效果
+  */
+  filter:blur(36px);
+  transform:scale(1.1) translateZ(0);
+  -webkit-filter:blur(36px);
+  -webkit-transform:scale(1.1) translateZ(0);
+}
+.re-s-bg,.re-dark{
+  position: absolute;
+  top:0;
+  bottom:0;
+  width: 100%;
+}
+/*遮罩*/
+.re-s-bg{
+  z-index:2;
+  background: rgba(0,0,0,.5);
+}
+/*内容*/
+.re-s-ct{
+  z-index:4;
+  width: 100%;
+  width:100%;
+  height: 100%;
+  position: relative;
+  padding-top: 1px;
+}
+.re-s-ct .re-s-top{
+  height: 3rem;
+  width: 100%;
+  margin:0.35rem 0.35rem 0;
+}
+.re-s-ct .re-s-top img{
+  width:2.6rem;
+  height: 2.6rem;
+  margin-right:0.35rem;
+  border-radius: 5px;
+  float: left;
+}
+.re-s-ct .re-s-top .re-s-title{
+  float: left;
+  color:rgba(255, 255, 255, 0.9);
+  padding:0.5rem 0;
+}
+.re-s-ct .re-s-top .re-s-title p{
+  line-height: 0.5rem;
+  font-size: 0.25rem;
+}
+.re-s-ct  .re-s-top .re-s-title h2{
+  line-height: 0.7rem;
+  font-weight: normal;
+}
+/*播放全部*/
+.re-b-play{
+  height: 1.6rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+.re-p-all{
+  width: 170px;
+  height: 40px;
+  border-radius: 30px;
+  border:0;
+  background-color: #31c27c;
+  color:#fff;
+
+}
+.re-p-all i.disabled.icon{
+  opacity: 1 !important;
+  color:#fff;
+  margin-right: 0;
+}
+.re_song>p{
+  font-size: 0.3rem;
+  padding:0.2rem 0.45rem 0;
+}
+/*播放暂停按钮*/
+.re-b-icon{
+  color:#4BCA8D !important;
+  font-size: 46px !important;
+  float: left !important;
+  margin-left: 13px !important;
+}
+.re-b-play>div{
+  float: left;
+  width:65%;
+  height: 100%;
+  padding-bottom: 5%;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.3rem;
+  color:#fff;
+  padding-top: 0.05rem;
+}
+.re-b-play>div>p:last-of-type{
+  font-size: 0.2rem;
+  font-weight: 400;
+}
+/*下载icon*/
+.re-b-play .re-b_download{
+  font-size: 24px !important;
+  margin:0 !important;
+  position: relative;
+  top:0.25rem;
+}
+
+/**/

@@ -1,0 +1,49 @@
+#root,#root>div{
+  width: 100%;
+  height: 100%;
+}
+.normal{
+  font-weight: normal;
+}
+.paddinLeft{
+  padding: 0.2rem;
+}
+.fontSize{
+  font-size: 0.3rem;
+}
+.center{
+  text-align: center;
+}
+.gray{
+  color:rgba(0,0,0,0.5)
+}
+.twoSize{
+  font-size: 0.18rem;
+}
+.redpink{
+  color:#ff5045;
+}
+/*logo*/
+._a{
+  padding: 0.2rem;
+}
+.re-img img{
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.re-img strong{
+  position: relative;
+  top:0.015rem;
+  left:0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/**/
